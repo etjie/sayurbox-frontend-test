@@ -1,0 +1,115 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+}
+
+.modal {
+  background-color: #ffffff;
+  border-radius: 5px;
+  max-width: 500px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.list__description {
+  display: inline-block;
+  max-width: 190px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+table {
+  border: 1px solid #444444;
+  border-bottom: none;
+  border-right: none;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+table thead tr td {
+  background: #d9d9d9;
+  font-weight: bold;
+}
+
+table tr td {
+  border-bottom: 1px solid #444444;
+  border-right: 1px solid #444444;
+}
+
+button, a.button {
+  display: inline-block;
+  padding: 0.5em 1.8em;
+  margin: 1em;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #282c34;
+  background-color: #ddd;
+  text-align: center;
+  border: none;
+  transition: all 0.2s;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+
+button:hover, a.button:hover {
+  background-color: #282c34;
+  color: #fff;
+  cursor: pointer;
+}
+
+a { cursor: pointer;}
+
+input[type="text"], textarea {
+  padding: 0.5em 0.8em;
+  border: 1px solid #d9d9d9;
+  font-size: 0.9rem;
+}
+textarea {
+  columns: 4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
